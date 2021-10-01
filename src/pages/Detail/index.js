@@ -70,10 +70,18 @@ function Detail() {
                 </HeaderButton>
             </Header>
 
-            <Banner
-                resizeMethod="resize"
-                source={{ uri: `https://image.tmdb.org/t/p/original/${movie.poster_path}` }}
-            />
+            {movie?.poster_path ? (
+                <Banner
+                    resizeMethod="resize"
+                    source={{ uri: `https://image.tmdb.org/t/p/original/${movie?.poster_path}` }}
+                />
+            ) : (
+                <Banner
+                    resizeMethod="resize"
+                    source={require('../../assets/semfoto.png')}
+                />
+            )
+            }
             <ButtonLink onPress={() => setOpenLink(true)}>
                 <Feather name="link" size={28} color="#FFFFFF" />
             </ButtonLink>
