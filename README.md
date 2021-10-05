@@ -3,6 +3,7 @@
 Aplicativo com o catálogo de filmes em cartaz, os mais populares e mais votados.
 
 ![ReactNativeFilmes](http://www.agencia3w.com.br/rnfilmes/Home.png "Home")
+![ReactNativeFilmes](http://www.agencia3w.com.br/rnfilmes/Detail.png "Detalhes")
 
 ## Tecnologias
 
