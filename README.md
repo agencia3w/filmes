@@ -1,6 +1,6 @@
 # ReactNative Prime
 
-Aplicativo com o catálogo de filmes em cartaz, os mais populares e mais votados.
+Aplicativo com o catálogo de filmes em cartaz, os mais populares e mais votados. Foi desenvolvido no workshop Insider 4 promovido pelo SujeitoProgramador (https://www.youtube.com/sujeitoprogramador)
 
 ![ReactNativeFilmes](http://www.agencia3w.com.br/rnfilmes/Home.png "Home")
 ![ReactNativeFilmes](http://www.agencia3w.com.br/rnfilmes/Detail.png "Detalhes")
